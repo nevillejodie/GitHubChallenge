@@ -1,0 +1,7 @@
+.question {
+  display: grid;
+  grid-row: 1;
+  grid-column: 6;
+
+  padding-left: 1rem;
+}

@@ -1,22 +1,23 @@
-import React from 'react';
-import css from './CircleSVG.module.css';
+import React from "react";
+import css from "./CircleSVG.module.css";
 
-function CircleSVG({ xPosition, yPosition }) {
+function CircleSVG({ xPosition, yPosition, timeDelay }) {
   return (
     <svg
       className={css.container}
-      width='250'
-      height='250'
+      width="100"
+      height="100"
       style={{ left: xPosition, top: yPosition }}
     >
       <circle
         className={css.path}
-        cx='125'
-        cy='125'
-        r='100'
-        stroke='darkgrey'
-        stroke-width='20'
-        fill='transparent'
+        cx="50"
+        cy="50"
+        r="25"
+        stroke="darkgrey"
+        stroke-width="10"
+        fill="transparent"
+        style={{ animationDelay: timeDelay }}
       />
     </svg>
   );

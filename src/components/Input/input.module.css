@@ -1,9 +1,26 @@
 .input {
-  height: 50px;
-  width: 150px;
+  height: 40px;
+  width: 200px;
+  margin: 1rem;
+  font-weight: bolder;
+  font-size: larger;
+
+  display: grid;
+  grid-row: 2;
+  grid-column: 6;
 }
 
 .enterButton {
   height: 40px;
-  width: 100px;
+  width: 210px;
+  margin: 1rem;
+  text-align: center;
+  background-color: cadetblue;
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+
+  display: grid;
+  grid-row: 3;
+  grid-column: 6;
 }
