@@ -1,4 +1,15 @@
-section {
+/* section {
   height: 1000px;
   width: 1000px;
+} */
+
+.DiagramBoard {
+  height: 800px;
+  width: 1000px;
+
+  display: grid;
+  grid-row: 1/11;
+  grid-column: 1/6;
+
+  background-color: aquamarine;
 }
